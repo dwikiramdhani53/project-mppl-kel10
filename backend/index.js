@@ -22,6 +22,7 @@ app.get('/product', produk.getOne)
 app.post('/product/insert', produk.addProduk)
 app.get('/artikels',artikel.AllArtikel)
 app.post('/artikel',artikel.OneArtikel)
+app.post('/insertArtikel',artikel.AddArtikel)
 
 app.listen(port, () => {
     console.log(`App running on port ${port}`)

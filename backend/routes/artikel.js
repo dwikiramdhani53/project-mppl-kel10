@@ -50,5 +50,26 @@ const OneArtikel = (req,res) => {
     })
 }
 
-module.exports = {AllArtikel,OneArtikel}
+const AddArtikel = (req,res) => {
+    const {judul_artikel, deskripsi,author} = req.body
+    console.log('masuk')
+    pool.query('insert into artikel(judul_artikel, deskripsi, author) values($1,$2,$3)',[judul_artikel,deskripsi,author],(error,result) => {
+        if (error){
+            return response (res, {
+                code : 500,
+                success : false,
+                message : error.message || 'Something Went Wrong!'
+            })
+        }
+        else {
+            return response (res, {
+                code : 201,
+                success : true,
+                message : 'Add Artikel Success'
+            })
+        }
+    })
+}
+
+module.exports = {AllArtikel,OneArtikel,AddArtikel}
 
