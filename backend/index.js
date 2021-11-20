@@ -3,6 +3,8 @@ const { verifyToken } = require('./helper/jwt')
 const users = require('./routes/users')
 const produk = require('./routes/produk')
 const artikel = require('./routes/artikel')
+const layanan = require('./routes/layanan')
+const komunitas = require('./routes/komunitas')
 
 const app = express()
 const port = 3000
@@ -22,7 +24,11 @@ app.get('/product', produk.getOne)
 app.post('/product/insert', produk.addProduk)
 app.get('/artikels',artikel.AllArtikel)
 app.post('/artikel',artikel.OneArtikel)
-app.post('/insertArtikel',artikel.AddArtikel)
+app.post('/artikel/insert',artikel.AddArtikel)
+app.get('/layanans',layanan.AllLayanan)
+app.post('/layanan',layanan.OneLayanan)
+app.get('/komunitass',komunitas.AllKomunitas)
+app.post('/komunitas',komunitas.OneKomunitas)
 
 app.listen(port, () => {
     console.log(`App running on port ${port}`)
