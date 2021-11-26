@@ -54,23 +54,16 @@ TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunja
 
   #### 2. Activity Diagram 
   * Melihat Layanan :
-  ![activity - layanan](https://user-images.githubusercontent.com/47946071/143613771-f907275c-c69e-4dc4-b585-e27b92965880.jpg)
 
   * Order Produk :
 
-
-
   * Melihat Artikel :
-
-
+  
   * Melihat komunitas :
   
-
   * Mengelola produk :
   
-
   * Mengelola artikel :
- 
 
   * Mengelola data komunitas :
   
