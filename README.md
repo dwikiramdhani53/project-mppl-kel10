@@ -53,12 +53,28 @@ TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunja
   ![Use Case](https://user-images.githubusercontent.com/47946071/143602585-653fc56a-98ac-4e5c-9274-4b537f416b0d.jpg)
 
   #### 2. Activity Diagram 
-  * Melakukan Tracking :
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/TrackUser%20Activity%20Diagram.jpg">
+  * Melihat Layanan :
+  ![activity - layanan](https://user-images.githubusercontent.com/47946071/143613143-123da9a3-d8c9-4853-99b2-55640f9c5c0b.jpg)
+
+  * Order Produk :
+ ![Activity - order produk](https://user-images.githubusercontent.com/47946071/143613196-6f5d0613-7a34-4b78-a0f8-d0bd70c7f74d.jpg)
+
+  * Melihat Artikel :
+  ![Activity - melihat artikel](https://user-images.githubusercontent.com/47946071/143613236-597feed9-6258-46b1-974e-89a8b15e1342.jpg)
+
+  * Melihat komunitas :
+  ![activity - komunitas](https://user-images.githubusercontent.com/47946071/143613260-59b391b0-8584-452c-8f69-db3f8f4b9c07.jpg)
+
+  * Mengelola produk :
+  ![activity - mengelola data produk](https://user-images.githubusercontent.com/47946071/143613291-c8bfda7a-b108-4fd9-b7ca-13fd1424a708.jpg)
+
+  * Mengelola artikel :
+  ![activity - mengelola artikel](https://user-images.githubusercontent.com/47946071/143613350-ac184cab-46f4-40f7-8126-d9fe129d72b8.jpg)
+
+  * Mengelola data komunitas :
+  ![mengelola komunitas](https://user-images.githubusercontent.com/47946071/143613393-762189d4-f0d3-4228-871b-d1149acc9f81.jpg)
+
   
-  * Merubah Profile :
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/Ubah%20Profil.jpg">
- 
   #### 3. Class Diagram 
   
   <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/Class%20Diagram.png">
