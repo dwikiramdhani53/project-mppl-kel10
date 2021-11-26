@@ -50,8 +50,8 @@ TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunja
 [`^ Kembali Keatas ^`](#)
 
   #### 1. Use Case Diagram 
-  ![Use Case](https://user-images.githubusercontent.com/47946071/143602439-9ea66526-38ab-43a6-8cb3-652d7a34128b.png)
-  
+  ![Use Case](https://user-images.githubusercontent.com/47946071/143602585-653fc56a-98ac-4e5c-9274-4b537f416b0d.jpg)
+
   #### 2. Activity Diagram 
   * Melakukan Tracking :
   <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/TrackUser%20Activity%20Diagram.jpg">
