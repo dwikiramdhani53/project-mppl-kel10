@@ -49,6 +49,26 @@ const getOneCommunity = (req,res) => {
         }
     })
 }
+const getAllCommunityByAdmin = (req,res) => {
+    const {admin_id} = req.body
+    pool.query('select * from "Community" WHERE admin_id = $1',[admin_id], (error,result) => {
+        if (error) {
+            return response(res, {
+                code : 500,
+                Success : false,
+                message : error.message || "Something Went Wrong!"
+            })
+        }
+        else {
+            return response(res, {
+                code : 200,
+                success : true,
+                message : "All Artikel Sukses",
+                content : result.rows
+            })
+        }
+    })
+}
 
 const addCommunity = (req,res) => {
     const {admin_id, CommunityOwner, CommunityName, LinkCommunity} = req.body
@@ -64,7 +84,27 @@ const addCommunity = (req,res) => {
             return response (res, {
                 code : 201,
                 success : true,
-                message : 'Add Community Success'
+                message : 'Add Artikel Success'
+            })
+        }
+    })
+}
+
+const editCommunity = (req,res) => {
+    const {comm_id, admin_id, CommunityOwner, CommunityName, LinkCommunity} = req.body
+    pool.query('UPDATE public."Community" SET "CommunityOwner" = $1,  "CommunityName" = $2, "LinkCommunity" = $3 WHERE admin_id = $4 AND comm_id = $5;',[CommunityOwner, CommunityName, LinkCommunity, comm_id, admin_id],(error,result) => {
+        if (error){
+            return response (res, {
+                code : 500,
+                success : false,
+                message : error.message || 'Something Went Wrong!'
+            })
+        }
+        else {
+            return response (res, {
+                code : 201,
+                success : true,
+                message : 'edit article Success'
             })
         }
     })
@@ -89,4 +129,4 @@ const deleteCommunity = (req,res) => {
         }
     })
 }
-module.exports = {getAllCommunity,getOneCommunity,addCommunity,deleteCommunity}
+module.exports = {getAllCommunity,getAllCommunityByAdmin,getOneCommunity,addCommunity,deleteCommunity,editCommunity}
