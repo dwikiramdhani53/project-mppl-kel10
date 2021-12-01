@@ -69,11 +69,11 @@ TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunja
   
   #### 3. Class Diagram 
   
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/Class%20Diagram.png">
+  ![Class Diagram Tiramisyu](https://user-images.githubusercontent.com/62282651/144169343-8220de26-4ed8-4130-8e6c-6879c63c32c3.jpg)
   
   #### 4. Entity Relationship Diagram
   
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/erd.jpeg">
+  ![ERD](https://user-images.githubusercontent.com/62282651/144169273-b2fd781a-b0c6-4ec7-bf98-c02dfc162d17.jpg)
   
   #### 5. Arsitektur Sistem  
   
