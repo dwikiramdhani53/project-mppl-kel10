@@ -92,7 +92,7 @@ const addArticle = (req,res) => {
 }
 const editArticle = (req,res) => {
     const {article_id, admin_id, Title, ArticleCategory, MainArticle} = req.body
-    pool.query('UPDATE public."Article" SET (Title = $1,  ArticleCategory = $2, MainArticle = $3) WHERE admin_id = $4 && article_id = $5;',[Title, ArticleCategory, MainArticle, admin_id,article_id],(error,result) => {
+    pool.query('UPDATE public."Article" SET "Title" = $1,  "ArticleCategory" = $2, "MainArticle" = $3 WHERE admin_id = $4 AND article_id = $5;',[Title, ArticleCategory, MainArticle, admin_id, article_id],(error,result) => {
         if (error){
             return response (res, {
                 code : 500,
