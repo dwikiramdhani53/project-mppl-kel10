@@ -98,7 +98,7 @@ const login = async (req, res) => {
         if (result.rowCount == 0) {
             return response(res, {
                 code: 501,
-                success: false,
+                success: true,
                 message: 'User not found',
             })
         }

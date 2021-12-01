@@ -16,7 +16,7 @@ const getAll = (req, res) => {
             code: 200,
             success: true,
             message: 'Success get all produk',
-            content: result.rows[0],
+            content: result.rows,
         })
     })
 }
