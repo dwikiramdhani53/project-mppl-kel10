@@ -10,7 +10,7 @@
 ## A. Deskripsi Singkat Aplikasi
 [`^ Kembali Keatas ^`](#)
 
-&ensp;&ensp;&ensp;&ensp;&ensp; IPB: Tracking user merupakan suatu platform berbasis web yang dapat menunjukan pergerakan user dalam lingkungan kampus ipb university. Melalui platform ini, user dapat mengetahui lokasi mana saja didalam kampus yang ramai maupun sepi. Penerapan lebih lanjut untuk aplikasi ini adalah penyesuaian terhadap protokol kesehatan yang diterapkan imbas dari pandemi Covid-19. Melalui aplikasi ini, user dapat mengetahui lokasi mana yang ramai di dalam kampus sehingga dapat menentukan tujuannya lebih baik dan menghindari kerumunan.  
+TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunjang proses bisnis perusahaan jamur tiram TiramisyuID. Website ini menyediakan informasi tetang jamur tiram, layanan yang diberikan perusahaan, dan jual beli produk jamur tiram. Selain itu platform ini juga menyediakan section edukasi berupa artikel-artikel tentang jamur tiram dan juga memberikan koneksi ke berbagai komunitas jamur tiram. Website ini dapat diakses semua orang, namun untuk menikmati layanan yang disediakannya harus memiliki akun, sedangkan penyedian informasi masih dibantu oleh admin. 
 
 
 ## B. User Analysis
@@ -18,8 +18,10 @@
 
 #### User Story
 
-* Saya sebagai mahasiswa IPB ,jika perkuliahan dilaksanakan secara offline,saya ingin tahu dimana lokasi di ipb yang sedang ramai orangnya, sehingga saya tidak pergi atau melewati daerah tersebut untuk menekan penularan Covid19.
-* Saya sebagai mahasiswa IPB, jika perkuliahan dilaksanakan secara offline, dengan kondisi new normal seperti ini saya ingin tahu informasi mengenai lokasi mana di IPB yang bisa digunakan untuk mengadakan suatu kegiatan.
+* Saya sebagai perusahaan budidaya jamur tiram ingin membagikan berbagai informasi tentang jamur tiram selain itu juga ingin menginformasikan layanan yang perusahaan miliki, dan juga ingin menjual berbagai macam jenis produk jamur tiram.
+*	Saya sebagai pembeli ingin secara khusus membeli berbagai produk jamur tiram dan juga ingin mengetahui informasi bermanfaat tentang jamur tiram.
+*	Saya sebagai pemula pembudidaya jamur tiram ingin mengetahui informasi penting tentang jamur tiram, memanfaatkan layanan yang diberikan perusahaan jamur tiram dan juga bergabung dengan berbagai komunitas jamur tiram untuk bertukar pikiran dan informasi.
+
 
 
 ## C. Spesifikasi Teknis Lingkungan Pengembangan
@@ -48,23 +50,30 @@
 [`^ Kembali Keatas ^`](#)
 
   #### 1. Use Case Diagram 
-  
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/Use%20Case%20Diagram.jpg">
-  
+  ![Use Case](https://user-images.githubusercontent.com/47946071/143602585-653fc56a-98ac-4e5c-9274-4b537f416b0d.jpg)
+
   #### 2. Activity Diagram 
-  * Melakukan Tracking :
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/TrackUser%20Activity%20Diagram.jpg">
+  * Melihat Layanan :
+
+  * Order Produk :
+
+  * Melihat Artikel :
   
-  * Merubah Profile :
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/Ubah%20Profil.jpg">
- 
+  * Melihat komunitas :
+  
+  * Mengelola produk :
+  
+  * Mengelola artikel :
+
+  * Mengelola data komunitas :
+  
   #### 3. Class Diagram 
   
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/Class%20Diagram.png">
+  ![Class Diagram Tiramisyu](https://user-images.githubusercontent.com/62282651/144169343-8220de26-4ed8-4130-8e6c-6879c63c32c3.jpg)
   
   #### 4. Entity Relationship Diagram
   
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/erd.jpeg">
+  ![ERD](https://user-images.githubusercontent.com/62282651/144169273-b2fd781a-b0c6-4ec7-bf98-c02dfc162d17.jpg)
   
   #### 5. Arsitektur Sistem  
   
