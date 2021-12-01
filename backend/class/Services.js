@@ -1,8 +1,8 @@
 const pool = require('../helper/database')
 const { response } = require('../helper/bcrypt')
 
-const AllLayanan = (req,res) => {
-    pool.query('select * from layanan', (error,result) => {
+const getAllServices = (req,res) => {
+    pool.query('select * from public."Services"', (error,result) => {
         if (error) {
             return response(res, {
                 code : 500,
@@ -14,16 +14,16 @@ const AllLayanan = (req,res) => {
             return response(res, {
                 code : 200,
                 success : true,
-                message : "All Layanan Sukses",
+                message : "All Services Sukses",
                 content : result.rows
             })
         }
     })
 }
 
-const OneLayanan = (req,res) => {
-    const {nama_layanan} = req.body
-    pool.query('select * FROM layanan WHERE nama_layanan = $1', [nama_layanan], (error,result) => {
+const getOneServices = (req,res) => {
+    const {ServiceName} = req.body
+    pool.query('select * FROM "Services" WHERE "ServiceName" = $1', [ServiceName], (error,result) => {
         if (error) {
             return response(res, {
                 code : 500,
@@ -36,18 +36,18 @@ const OneLayanan = (req,res) => {
             return response (res, {
                 code : 501,
                 success : true,
-                message : 'Layanan not found'
+                message : 'Service not found'
             })
         }
         else {
             return response(res,{
                 code : 200,
                 success : true,
-                message : "One Layanan Sukses",
+                message : "One Service Sukses",
                 content : result.rows
             })
         }
     })
 }
 
-module.exports = {AllLayanan,OneLayanan}
+module.exports = {getAllServices,getOneServices}
