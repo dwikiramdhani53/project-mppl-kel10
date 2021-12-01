@@ -1,8 +1,8 @@
 const pool = require('../helper/database')
 const { response } = require('../helper/bcrypt')
 
-const getAll = (req, res) => {
-    pool.query('select * from produk', (err, result) => {
+const getAllProduct = (req, res) => {
+    pool.query('select * from public."Products"', (err, result) => {
         if(err) {
             return response(res, {
                 code: 500,
@@ -21,10 +21,35 @@ const getAll = (req, res) => {
     })
 }
 
-const getOne = (req, res) => {
-    const { nama_produk } = req.body
+const getAllProductByAdmin = (req, res) => {
+    const { admin_id } = req.body
 
-    pool.query('select * from produk where nama_produk = $1', [nama_produk], (err, result) => {
+    pool.query('select * from public."Products" where admin_id = $1', [admin_id], (err, result) => {
+        if (err) {
+            throw err;
+        }
+
+        if (result.rowCount == 0) {
+            return result(res, {
+                code: 404,
+                success: false,
+                message: `admin dengan id ${admin_id} belum memiliki produk`
+            })
+        }
+
+        return response(res, {
+            code: 200,
+            success: true,
+            message: `Produk dengan admin_id ${admin_id} berhasil didapatkan`,
+            content: result.rows,
+        })
+    })
+}
+
+const getOneProduct = (req, res) => {
+    const { ProductName } = req.body
+
+    pool.query('select * from public."Products" where "ProductName" = $1', [ProductName], (err, result) => {
         if(err) {
             return response(res, {
                 code: 500,
@@ -45,16 +70,16 @@ const getOne = (req, res) => {
         return response(res, {
             code: 200,
             success: true,
-            message: `Success get ${nama_produk} data`,
+            message: `Success get ${ProductName} data`,
             content: result.rows[0],
         })
     })
 }
 
-const addProduk = (req, res) => {
-    const { nama_produk, deskripsi } = req.body
+const addProduct = (req, res) => {
+    const { ProductName, ProductDescription, ProductStock, ProductPrice, ProductWeight, ProductOrigin, admin_id } = req.body
 
-    pool.query('insert into produk(nama_produk, deskripsi) values($1, $2)', [nama_produk, deskripsi], (err, result) => {
+    pool.query('insert into public."Products"("ProductName", "ProductDescription", "ProductStock", "ProductPrice", "ProductWeight", "ProductOrigin", admin_id) values($1, $2, $3, $4, $5, $6, $7)', [ProductName, ProductDescription, ProductStock, ProductPrice, ProductWeight, ProductOrigin, admin_id], (err, result) => {
         if(err) {
             return response(res, {
                 code: 500,
@@ -67,10 +92,72 @@ const addProduk = (req, res) => {
         return response(res, {
             code: 200,
             status: true,
-            message: `Produk ${nama_produk} successfully added!`,
-            content: { nama_produk, deskripsi }
+            message: `Produk ${ProductName} successfully added!`,
+            content: { ProductName, ProductDescription, ProductStock, ProductPrice, ProductWeight, ProductOrigin }
         })
     })
 }
 
-module.exports = { getAll, getOne, addProduk }
+const editProduct = (req, res) => {
+    const { ProductName, ProductDescription, ProductStock, ProductPrice, ProductWeight, ProductOrigin, admin_id, prod_id } = req.body
+
+    pool.query('update public."Products" set "ProductName" = $1, "ProductDescription" = $2, "ProductStock" = $3, "ProductPrice" = $4, "ProductWeight" = $5, "ProductOrigin" = $6 where prod_id = $8 and admin_id = $7', [ProductName, ProductDescription, ProductStock, ProductPrice, ProductWeight, ProductOrigin, admin_id, prod_id], (err, result) => {
+        if (err) {
+            return response(res, {
+                code: 500,
+                success: false,
+                message: 'something went wrong!',
+                content: err
+            })
+        }
+    })
+
+    return response(res, {
+        code: 200,
+        success: true,
+        message: `${ProductName} berhasil diubah`,
+        content: { ProductName, ProductDescription, ProductStock, ProductPrice, ProductWeight, ProductOrigin }
+    })
+}
+
+const deleteProduct = (req, res) => {
+    const { ProductName } = req.body
+
+    pool.query('select * from public."Products" where "ProductName" = $1', [ProductName], (err, result) => {
+        if (err) {
+            return response(res, {
+                code: 500,
+                success: false,
+                message: err.message || 'Something went wrong!',
+                content: err
+            })
+        }
+
+        if (result.rowCount == 0) {
+            return response(res, {
+                code: 404,
+                success: false,
+                message: `${ProductName} tidak ditemukan`
+            })
+        }
+
+        pool.query('delete from public."Products" where "ProductName" = $1', [ProductName], (error, r) => {
+            if (error) {
+                return response(res, {
+                    code: 500,
+                    success: false,
+                    message: error.message || 'Something went wrong!',
+                    content: error,
+                })
+            }
+
+            return response(res, {
+                code: 200,
+                success: true,
+                message: `${ProductName} success deleted`,
+            })
+        })
+    })
+}
+
+module.exports = { getAllProduct, getAllProductByAdmin, getOneProduct, addProduct, editProduct, deleteProduct }
