@@ -10,7 +10,7 @@
 ## A. Deskripsi Singkat Aplikasi
 [`^ Kembali Keatas ^`](#)
 
-TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunjang proses bisnis perusahaan jamur tiram TiramisyuID. Website ini menyediakan informasi tetang jamur tiram, layanan yang diberikan perusahaan, dan jual beli produk jamur tiram. Selain itu platform ini juga menyediakan section edukasi berupa artikel-artikel tentang jamur tiram dan juga memberikan koneksi ke berbagai komunitas jamur tiram. Website ini dapat diakses semua orang, namun untuk menikmati layanan yang disediakannya harus memiliki akun, sedangkan penyedian informasi masih dibantu oleh admin. 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunjang proses bisnis perusahaan jamur tiram TiramisyuID. Website ini menyediakan informasi tetang jamur tiram, layanan yang diberikan perusahaan, dan jual beli produk jamur tiram. Selain itu platform ini juga menyediakan section edukasi berupa artikel-artikel tentang jamur tiram dan juga memberikan koneksi ke berbagai komunitas jamur tiram. Website ini dapat diakses semua orang, namun untuk menikmati layanan yang disediakannya harus memiliki akun, sedangkan penyedian informasi masih dibantu oleh admin. 
 
 
 ## B. User Analysis
@@ -41,10 +41,10 @@ TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunja
 * ROM : 512Gb HDD dan 128Gb SSD
 
 #### Tech Stack
-* Programming Languange : 
-* Framework : 
-* Web Server : 
-* DBMS : 
+* Programming Languange : Javascript
+* Framework : Express.jS
+* Web Server : Heroku
+* DBMS : PostgreSQL
  
 ## D. Hasil dan Pembahasan
 [`^ Kembali Keatas ^`](#)
@@ -80,20 +80,7 @@ TiramisyuID merupakan sebuah sistem berbasis web yang dikembangkan untuk menunja
   ![psbo kuy](https://user-images.githubusercontent.com/74283988/122190683-3eefab80-cebc-11eb-8513-7e8a889634d0.png)
   
   #### 6. Fungsi Utama yang Dikembangkan 
-Fungsi utama:
-
-  #### 7. Fungsi CRUD
-  
-  #### a. Create : 
-  Sebelum menggunakan IPB Tracking User, pengguna diharuskan memiliki akun untuk dapat masuk kedalam aplikasi. Pada kasus kali ini, fungsi CREATE digunakan untuk membuat akun pengguna. Pengguna dapat terdiri dari mahasiswa, dosen, atau civitas akademika IPB.
-  
-  #### b. Read : 
-  Pengguna yang sudah memiliki akun dapat melihat kondisi peta kampus IPB pada aplikasi. Selain itu pengguna juga dapat melihat dan mengecek data profil yang mereka daftarkan pada halaman profile. Hal ini menerapkan fungsi READ pada aplikasi yang dikembangkan.
-  
-  #### c. Update :
-  Fungsi UPDATE juga diterapkan pada halaman profile aplikasi. Selain dapat mengecek data yang mereka daftarkan, pengguna juga dapat melakukan perubahan data diri pada halaman profile apabila ada pembaharuan yang ingin mereka lakukan. Pada kasus kali ini, fungsi UPDATE data diterapkan pada aplikasi.
-  #### d. Delete :
-  Kemampuan DELETE atau menghapus dimiliki oleh admin. Admin dapat melakukan DELETE akun yang terdaftar pada aplikasi IPB Tracking User. Hal ini masuk kedalam tugas admin dalam melakukan monitor terhadap pengguna.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Fungsi utama yang dikembangkan pada projek ini diantaranya adalah tampilan halaman utama sebagai pintu masuk bagi user dalam berinteraksi dengan web TiramisyuID. Kemudian ada bagian produk yang menawarkan proses jual-beli komoditas jamur tiram. Selain itu ada forum komunitas dimana user dapat berinteraksi dan sharing seputar komoditas jamur tiram, sampai fitur edukasi untuk mencerdaskan user terhadap komoditas jamur tiram.
 
 
 ## F. Hasil Implementasi
@@ -128,9 +115,11 @@ Fungsi utama:
 
 Berikut beberapa saran untuk proyek pengembangan selanjutnya:
 1. Proses pembelajaran dalam membangun/mengembangkan platform harus lebih efektif dan tidak memakan waktu yang lama
-2. Pembagian tugas para pengembang lebih jelas dan sesuai jobdesc agar tanggung jawab lebih merata dan tepat
-3. Memaksimalkan komunikasi dan manajemen antar pengembang dalam proses pengembangan
-4. Aplikasi dapat dikembangkan menjadi lebih baik karena fungsinya yang cukup penting bagi kehidupan kampus
+2. Memaksimalkan komunikasi dan manajemen antar pengembang dalam proses pengembangan
+3. Memastikan dengan jelas keinginan client terhadap aplikasi seperti apa yang mereka inginkan
+4. Client tetap harus memerhatikan pengembangan idenya sekalipun tujuan mereka sudah tidak sama dengan sebelumnya
+5. Penerapan time management dalam pengembangan aplikasi harus lebih dimaksimalkan dan ditepati
+
 
 
 ## H. Job Description Role
