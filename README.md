@@ -54,20 +54,33 @@
 
   #### 2. Activity Diagram 
   * Melihat Layanan :
-![activity layanan](https://user-images.githubusercontent.com/47946071/144578468-79ed721f-e43f-4428-97a9-3e47c3e69223.jpg)
+  
+  ![activity layanan](https://user-images.githubusercontent.com/47946071/144578468-79ed721f-e43f-4428-97a9-3e47c3e69223.jpg)
 
   * Order Produk :
+  
+  ![Activity - order produk](https://user-images.githubusercontent.com/47946071/144578560-8e228b70-cf00-492b-b6c4-328a541071f6.jpg)
 
   * Melihat Artikel :
-  
+   
+   ![Activity - melihat artikel](https://user-images.githubusercontent.com/47946071/144578591-cbd98b05-3c98-490c-9087-88b7b08b0df6.jpg)
+
   * Melihat komunitas :
   
-  * Mengelola produk :
-  
-  * Mengelola artikel :
+  ![activity - komunitas](https://user-images.githubusercontent.com/47946071/144578638-b2bcbc0f-b103-4feb-8124-aab8b0c145ba.jpg)
 
-  * Mengelola data komunitas :
+  * Admin - Mengelola produk :
   
+  ![activity - mengelola data produk](https://user-images.githubusercontent.com/47946071/144578714-07121d78-65ac-4c15-9ea2-71d1c3d0abd5.jpg)
+
+  * Admin - Mengelola artikel :
+
+![activity - mengelola artikel](https://user-images.githubusercontent.com/47946071/144578734-99761ab9-fb22-42e9-a64c-0dfd14e82b70.jpg)
+
+  * Admin - Mengelola data komunitas :
+  
+  ![mengelola komunitas](https://user-images.githubusercontent.com/47946071/144578768-16570c54-68fd-4f3f-a11e-85662d71bd91.jpg)
+
   #### 3. Class Diagram 
   
   ![Class Diagram Tiramisyu](https://user-images.githubusercontent.com/62282651/144169343-8220de26-4ed8-4130-8e6c-6879c63c32c3.jpg)
