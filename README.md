@@ -54,6 +54,7 @@
 
   #### 2. Activity Diagram 
   * Melihat Layanan :
+![activity layanan](https://user-images.githubusercontent.com/47946071/144578468-79ed721f-e43f-4428-97a9-3e47c3e69223.jpg)
 
   * Order Produk :
 
