@@ -53,19 +53,19 @@
   ![Use Case](https://user-images.githubusercontent.com/47946071/143602585-653fc56a-98ac-4e5c-9274-4b537f416b0d.jpg)
 
   #### 2. Activity Diagram 
-  * Melihat Layanan :
+  * User - Melihat Layanan :
   
   ![activity layanan](https://user-images.githubusercontent.com/47946071/144578468-79ed721f-e43f-4428-97a9-3e47c3e69223.jpg)
 
-  * Order Produk :
+  * User - Order Produk :
   
   ![Activity - order produk](https://user-images.githubusercontent.com/47946071/144578560-8e228b70-cf00-492b-b6c4-328a541071f6.jpg)
 
-  * Melihat Artikel :
+  * User - Melihat Artikel :
    
    ![Activity - melihat artikel](https://user-images.githubusercontent.com/47946071/144578591-cbd98b05-3c98-490c-9087-88b7b08b0df6.jpg)
 
-  * Melihat komunitas :
+  * User - Melihat komunitas :
   
   ![activity - komunitas](https://user-images.githubusercontent.com/47946071/144578638-b2bcbc0f-b103-4feb-8124-aab8b0c145ba.jpg)
 
