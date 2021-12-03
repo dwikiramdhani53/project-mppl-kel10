@@ -101,26 +101,38 @@
 [`^ Kembali Keatas ^`](#)
   * <b>Screenshot Sistem</b>
 
-  #### 1. Sign Up Page
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/SS/1.%20signup%20tracking.png">
+  #### 1. Halaman Daftar
+
   
-  #### 2. Login Page
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/SS/2.%20Login-tracking.png">
+  #### 2. Halaman Login/Masuk
   
-  #### 3. Welcome Page
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/SS/3.%20welcome-tracking.png">
+  
+  #### 3. Halaman Utama
+
  
-  #### 4. Dashboard / Track Page
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/SS/4.%20dashboard-tracking.png">
+  #### 4. Halaman Fitur Layanan
+
   
-  #### 5. Profile Page
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/SS/5.%20profile-tracking.png">
+  #### 5. Halaman Fitur Produk
+
   
-  #### 6. Update Profile Page
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/SS/6.%20update-profile-tracking.png">
+  #### 6. Halaman Fitur Edukasi
+
   
-  #### 7. Admin Page
-  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/SS/7.%20admin-page-tracking.png">
+  #### 7.  Halaman Fitur Komunitas
+  
+  
+  #### 8.  Halaman Layanan - Admin
+  
+  
+  #### 9.  Halaman Produk - Admin
+  
+  
+  #### 10.  Halaman Edukasi - Admin
+  
+  
+  #### 11.  Halaman Komunitas - Admin
+
 
   * <b>Link Aplikasi</b>
     
