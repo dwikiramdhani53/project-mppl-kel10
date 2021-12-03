@@ -110,7 +110,7 @@ const login = async (req, res) => {
 
                 pool.query('update public."Admin" set token = $1 where company_email = $2', [token, company_email])
 
-                const { hash_password, ...userData } = result.rows[0]
+                const { password, ...userData } = result.rows[0]
                 userData.token = token
 
                 return response(res, {
