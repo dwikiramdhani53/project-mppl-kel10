@@ -103,30 +103,30 @@
 
   #### 1. Halaman Daftar
 
-  ![Page Daftar](https://user-images.githubusercontent.com/62282651/144692339-b7ccf570-fe4b-43c7-8fa9-5246b6c36ae4.png)
+  ![Page Daftar](https://user-images.githubusercontent.com/62282651/144692677-2b6c8ca4-2ee9-4f84-bf4f-1cff314e6224.png)
   
   #### 2. Halaman Login/Masuk
   
-  ![Page Login](https://user-images.githubusercontent.com/62282651/144692351-ee31f90c-1845-472e-b1ba-cf4c663ed7e8.png)
+  ![Page Login](https://user-images.githubusercontent.com/62282651/144692740-b38c88ca-0f9c-4fd2-a96c-685c89e041bb.png)
   
   #### 3. Halaman Utama
 
-  ![Laman Utama](https://user-images.githubusercontent.com/62282651/144692399-e2af19cd-7a95-4357-936c-7cab887b9e74.png)
+  ![Laman Utama](https://user-images.githubusercontent.com/62282651/144692789-5a5304e1-bc05-436d-b8ef-f6ff896d6174.png)
  
   #### 4. Halaman Fitur Layanan
 
-  ![Page Layanan](https://user-images.githubusercontent.com/62282651/144692369-f26ab17a-1b5a-4c8a-bd1d-d0c62c0b2996.png)
+  ![Page Layanan](https://user-images.githubusercontent.com/62282651/144692812-9e0e4359-b6de-4c62-ae50-924801e10b28.png)
   
   #### 5. Halaman Fitur Produk
-
-  ![Page Produk 1](https://user-images.githubusercontent.com/62282651/144692372-65a1affe-1f16-45c3-b031-3a4b9f4ff562.png)
-  ![Page Produk 2](https://user-images.githubusercontent.com/62282651/144692380-73c74f78-c879-4626-9fe2-d0388caee69e.png)
-  ![Page Produk 3](https://user-images.githubusercontent.com/62282651/144692384-15af3f50-2882-4707-9fe3-41c7e767587e.png)
+  
+  ![Page Produk 1](https://user-images.githubusercontent.com/62282651/144692893-cb46587b-e3f0-42c5-a57f-2c84b86fc92f.png)
+  ![Page Produk 2](https://user-images.githubusercontent.com/62282651/144692895-794df0c2-e0b3-49cf-ac28-1061d1dfdd42.png)
+  ![Page Produk 3](https://user-images.githubusercontent.com/62282651/144692890-9995c0b5-29d2-45bc-8c08-d0a3593c6be8.png)
   
   #### 6. Halaman Fitur Edukasi
 
-  ![Page Edukasi](https://user-images.githubusercontent.com/62282651/144692355-6cadb350-3286-443c-b0d1-f714b2bb5be7.png)
-  ![Page Edukasi 2](https://user-images.githubusercontent.com/62282651/144692358-fd077042-ff89-4903-8496-f6607b13d7e2.png)
+  ![Page Edukasi](https://user-images.githubusercontent.com/62282651/144692923-4d45855b-098b-446b-9ddb-49dcd2adbc69.png)
+
   
   #### 7.  Halaman Fitur Komunitas
   
@@ -134,16 +134,26 @@
   
   #### 8.  Halaman Layanan - Admin
   
+  ![admin-layanan](https://user-images.githubusercontent.com/62282651/144693213-2fa6da94-5713-4d89-a57d-03a2aa5d0ffd.png)
+  ![Page Layanan - Admin](https://user-images.githubusercontent.com/62282651/144693268-afc9661a-1818-4547-afc2-5d8bef178cb3.png)
+  
   
   #### 9.  Halaman Produk - Admin
   
+  ![Page Produk -Admin](https://user-images.githubusercontent.com/62282651/144693171-20f97e78-5de5-4970-ad28-3070ccf740ed.png)
+  ![Page Produk 2 -Admin](https://user-images.githubusercontent.com/62282651/144693174-d4d26b63-f29c-4779-82e3-83f6999f8153.png)
   
   #### 10.  Halaman Edukasi - Admin
   
+  ![Page Artikel - Admin](https://user-images.githubusercontent.com/62282651/144693190-4fb4bae5-f7f0-4c5a-b300-0ba6200db527.png)
+  ![Page Artikel 2 - Admin](https://user-images.githubusercontent.com/62282651/144693196-f901f0bd-d830-4b05-8e06-5e6eb8f52396.png)
   
   #### 11.  Halaman Komunitas - Admin
+  
+  ![Page Komunitas - Admin](https://user-images.githubusercontent.com/62282651/144693224-5ebc812e-c8d5-4f0e-8330-056cef20bf5e.png)
+  ![Page Komunitas2 -Admin](https://user-images.githubusercontent.com/62282651/144693230-80dfa396-5176-45c0-ba58-49bc903e111f.png)
 
-
+  
   * <b>Link Aplikasi</b>
     
 ## G. Saran untuk Pengembangan Selanjutnya
