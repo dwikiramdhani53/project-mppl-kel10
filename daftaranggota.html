@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Daftar Anggota</title>
+  </head>
+  <body id="home">
+    <section id="daftar">
+      <div class="container">
+        <div class="row justify-content-center" style="padding-top: 5rem">
+          <div class="col-6">
+            <h1 class="text-center mb-5">TIRAMISYU</h1>
+
+            <h3>Daftar</h3>
+
+            <p>Anda tertarik bergabung dengan kami? Langsung daftar</p>
+
+            <form action="">
+              <div class="mb-3">
+                <label for="perusahaan" class="form-label">Nama Perusahaan</label>
+                <input type="text" class="form-control" id="perusahaan" placeholder="Nama perusahaan" />
+              </div>
+
+              <div class="mb-3">
+                <label for="email_perusahaan" class="form-label">Email Perusahaan</label>
+                <input type="email" class="form-control" id="email_perusahaan" placeholder="Email Perusahaan" />
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Masukkan Password Baru" />
+              </div>
+
+              <div class="mb-3">
+                <label for="re_password" class="form-label">Re-type Password</label>
+                <input type="password" class="form-control" id="re_password" placeholder="Masukkan Ulang Password Baru" />
+              </div>
+
+              <div class="mb-3">
+                <label for="alamat_perusahaan" class="form-label">Alamat Perusahaan</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="penanggung" class="form-label">Nama Penanggung Jawab</label>
+                <input type="text" class="form-control" id="penanggung" placeholder="Nama Penanggung Jawab" />
+              </div>
+
+              <div class="mb-3">
+                <label for="email_penanggung" class="form-label">Email Penanggung Jawab</label>
+                <input type="email" class="form-control" id="email_penanggung" placeholder="Email Penanggung Jawab" />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3 my-5 offset-8" style="padding-left: 2rem">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Daftar</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Selamat!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">Akun kamu telah berhasil dibuat, silahkan login untuk info lebih lanjut</div>
+                  <div class="modal-footer">
+                    <a href="login.html">
+                      <button type="button" class="btn btn-outline-success">Masuk <i class="bi bi-arrow-right-short"></i></button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section id="footer">
+      <footer class="text-dark shadow-lg bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <p>TIRAMISYU | 2021</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+</html>
